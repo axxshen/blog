@@ -1,0 +1,28 @@
+---
+import PageLayout from "@/layouts/Base.astro";
+
+const meta = {
+	description: "About Ao Shen",
+	title: "About",
+};
+---
+
+<PageLayout meta={meta}>
+	<h1 class="title mb-12">About</h1>
+	<div class="prose prose-sm prose-cactus max-w-none">
+		<p>
+			I'm Ao — based in China, working at the intersection of finance, AI engineering, and markets.
+		</p>
+		<p>
+			I write about things I'm building and thinking about: AI systems, quantitative trading,
+			career strategy, and what it means to compound over time.
+		</p>
+		<p>
+			Background: Economics + CS, with time spent on prediction market bots, AI agent systems,
+			and job-hunting in a world that moves faster than most people's resumes.
+		</p>
+		<p>
+			You can find my code on <a class="cactus-link" href="https://github.com/axxshen" target="_blank" rel="noopener noreferrer">GitHub</a>.
+		</p>
+	</div>
+</PageLayout>
