@@ -22,7 +22,7 @@ import { expressiveCodeOptions, siteConfig } from "./src/site.config";
 // https://astro.build/config
 export default defineConfig({
 	site: "https://axxshen.github.io",
-	base: "/writing",
+	base: "/blog",
 	image: {
 		domains: ["webmention.io"],
 	},

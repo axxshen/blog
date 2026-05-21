@@ -3,7 +3,7 @@ import type { SiteConfig } from "@/types";
 
 export const siteConfig: SiteConfig = {
 	// ! Please remember to replace the following site property with your own domain, used in astro.config.ts
-	url: "https://axxshen.github.io/writing/",
+	url: "https://axxshen.github.io/blog/",
 	title: "Ao Shen",
 	author: "Ao Shen",
 	description: "Writing about AI, markets, and building things.",
@@ -22,15 +22,15 @@ export const siteConfig: SiteConfig = {
 // Used to generate links in both the Header & Footer.
 export const menuLinks: { path: string; title: string }[] = [
 	{
-		path: "/writing/",
+		path: "/blog/",
 		title: "Home",
 	},
 	{
-		path: "/writing/about/",
+		path: "/blog/about/",
 		title: "About",
 	},
 	{
-		path: "/writing/posts/",
+		path: "/blog/posts/",
 		title: "Writing",
 	},
 ];
