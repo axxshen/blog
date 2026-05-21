@@ -8,9 +8,9 @@ import { siteConfig } from "../../site.config";
 <header class="group relative mb-28 flex items-center sm:ps-18" id="main-header">
 	<div class="flex sm:flex-col">
 		<a
-			aria-current={Astro.url.pathname === import.meta.env.BASE_URL ? "page" : false}
+			aria-current={Astro.url.pathname === "/blog/" ? "page" : false}
 			class="inline-flex items-center sm:relative sm:inline-block sm:grayscale sm:hover:filter-none"
-			href={import.meta.env.BASE_URL}
+			href="/blog/"
 		>
 			<svg
 				aria-hidden="true"

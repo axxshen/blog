@@ -19,15 +19,15 @@ const socialImageURL = new URL(ogImage ? ogImage : "/social-card.png", Astro.url
 <title>{siteTitle}</title>
 
 {/* Icons */}
-<link href={`${import.meta.env.BASE_URL}icon.svg`} rel="icon" type="image/svg+xml" />
+<link href={`/blog/icon.svg`} rel="icon" type="image/svg+xml" />
 {
 	import.meta.env.PROD && (
 		<>
 			{/* Favicon & Apple Icon, Generated at build */}
-			<link rel="icon" href={`${import.meta.env.BASE_URL}favicon-32x32.png`} type="image/png" />
-			<link href={`${import.meta.env.BASE_URL}icons/apple-touch-icon.png`} rel="apple-touch-icon" />
+			<link rel="icon" href={`/blog/favicon-32x32.png`} type="image/png" />
+			<link href={`/blog/icons/apple-touch-icon.png`} rel="apple-touch-icon" />
 			{/* Manifest */}
-			<link href={`${import.meta.env.BASE_URL}manifest.webmanifest`} rel="manifest" />
+			<link href={`/blog/manifest.webmanifest`} rel="manifest" />
 		</>
 	)
 }
@@ -67,11 +67,11 @@ const socialImageURL = new URL(ogImage ? ogImage : "/social-card.png", Astro.url
 <meta content={socialImageURL} property="twitter:image" />
 
 {/* Sitemap */}
-<link href={`${import.meta.env.BASE_URL}sitemap-index.xml`} rel="sitemap" />
+<link href={`/blog/sitemap-index.xml`} rel="sitemap" />
 
 {/* RSS auto-discovery */}
-<link href={`${import.meta.env.BASE_URL}rss.xml`} title="Blog" rel="alternate" type="application/rss+xml" />
-<link href={`${import.meta.env.BASE_URL}notes/rss.xml`} title="Notes" rel="alternate" type="application/rss+xml" />
+<link href={`/blog/rss.xml`} title="Blog" rel="alternate" type="application/rss+xml" />
+<link href={`/blog/notes/rss.xml`} title="Notes" rel="alternate" type="application/rss+xml" />
 
 {/* Webmentions */}
 {
