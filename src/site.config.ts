@@ -4,7 +4,7 @@ import type { SiteConfig } from "@/types";
 export const siteConfig: SiteConfig = {
 	// ! Please remember to replace the following site property with your own domain, used in astro.config.ts
 	url: "https://axxshen.github.io/blog/",
-	title: "Ao Shen",
+	title: "Oasis",
 	author: "Ao Shen",
 	description: "Writing about AI, markets, and building things.",
 	lang: "en-US",
